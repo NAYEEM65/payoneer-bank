@@ -1,0 +1,48 @@
+body{
+    padding: 100px;
+}
+.bank-title{
+    font-weight: bold;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#transection-area{
+    display: none;
+}
+#transection-area h1{
+    text-align: center;
+    font-weight: bold;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 0 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.shadow-box{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
