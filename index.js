@@ -55,7 +55,7 @@ withdrawBtn.addEventListener("click", function(){
     const currentBalanceNumber = parseFloat(currentBalance);
     const totalBalance = currentBalanceNumber - totalWithdraw;
     if(currentBalanceNumber<totalWithdraw){
-        alert("insuficient Balance 😥")
+        alert("টাকা পয়সা নাই 😥")
     }
     document.getElementById("currentBalance").innerText = totalBalance;
     document.getElementById("withdrawAmount").value = "";
